@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87D41951E2117510020E445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41941E2117510020E445 /* main.m */; };
+		F87D41981E2117510020E445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41971E2117510020E445 /* AppDelegate.m */; };
+		F87D419B1E2117510020E445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D419A1E2117510020E445 /* ViewController.m */; };
+		F87D419E1E2117510020E445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87D419C1E2117510020E445 /* Main.storyboard */; };
+		F87D41A01E2117510020E445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87D419F1E2117510020E445 /* Assets.xcassets */; };
+		F87D41A31E2117510020E445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87D41A11E2117510020E445 /* LaunchScreen.storyboard */; };
+		F87D41AE1E2117510020E445 /* FDCalenderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41AD1E2117510020E445 /* FDCalenderViewTests.m */; };
+		F87D41B91E2117510020E445 /* FDCalenderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41B81E2117510020E445 /* FDCalenderViewUITests.m */; };
+		F87D41CC1E211B190020E445 /* bt_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87D41C91E211B190020E445 /* bt_next@2x.png */; };
+		F87D41CD1E211B190020E445 /* bt_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87D41CA1E211B190020E445 /* bt_previous@2x.png */; };
+		F87D41CE1E211B190020E445 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = F87D41CB1E211B190020E445 /* shake.png */; };
+		F87D41D31E211B390020E445 /* UIColor+ZXLazy.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41D01E211B390020E445 /* UIColor+ZXLazy.m */; };
+		F87D41D41E211B390020E445 /* FDCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41D21E211B390020E445 /* FDCalenderView.m */; };
+		F87D41D81E211BFA0020E445 /* FDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87D41D61E211BFA0020E445 /* FDTableViewCell.m */; };
+		F87D41D91E211BFA0020E445 /* FDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87D41D71E211BFA0020E445 /* FDTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87D41AA1E2117510020E445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87D41881E2117510020E445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87D418F1E2117510020E445;
+			remoteInfo = FDCalenderView;
+		};
+		F87D41B51E2117510020E445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87D41881E2117510020E445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87D418F1E2117510020E445;
+			remoteInfo = FDCalenderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F87D41901E2117510020E445 /* FDCalenderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDCalenderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D41941E2117510020E445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F87D41961E2117510020E445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F87D41971E2117510020E445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F87D41991E2117510020E445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F87D419A1E2117510020E445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F87D419D1E2117510020E445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F87D419F1E2117510020E445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87D41A21E2117510020E445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F87D41A41E2117510020E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87D41A91E2117510020E445 /* FDCalenderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDCalenderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D41AD1E2117510020E445 /* FDCalenderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCalenderViewTests.m; sourceTree = "<group>"; };
+		F87D41AF1E2117510020E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87D41B41E2117510020E445 /* FDCalenderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDCalenderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D41B81E2117510020E445 /* FDCalenderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCalenderViewUITests.m; sourceTree = "<group>"; };
+		F87D41BA1E2117510020E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87D41C91E211B190020E445 /* bt_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_next@2x.png"; sourceTree = "<group>"; };
+		F87D41CA1E211B190020E445 /* bt_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_previous@2x.png"; sourceTree = "<group>"; };
+		F87D41CB1E211B190020E445 /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
+		F87D41CF1E211B390020E445 /* UIColor+ZXLazy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZXLazy.h"; path = "../UIColor+ZXLazy.h"; sourceTree = "<group>"; };
+		F87D41D01E211B390020E445 /* UIColor+ZXLazy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZXLazy.m"; path = "../UIColor+ZXLazy.m"; sourceTree = "<group>"; };
+		F87D41D11E211B390020E445 /* FDCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCalenderView.h; path = ../FDCalenderView.h; sourceTree = "<group>"; };
+		F87D41D21E211B390020E445 /* FDCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCalenderView.m; path = ../FDCalenderView.m; sourceTree = "<group>"; };
+		F87D41D51E211BFA0020E445 /* FDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTableViewCell.h; sourceTree = "<group>"; };
+		F87D41D61E211BFA0020E445 /* FDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTableViewCell.m; sourceTree = "<group>"; };
+		F87D41D71E211BFA0020E445 /* FDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87D418D1E2117510020E445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41A61E2117510020E445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41B11E2117510020E445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87D41871E2117510020E445 = {
+			isa = PBXGroup;
+			children = (
+				F87D41921E2117510020E445 /* FDCalenderView */,
+				F87D41AC1E2117510020E445 /* FDCalenderViewTests */,
+				F87D41B71E2117510020E445 /* FDCalenderViewUITests */,
+				F87D41911E2117510020E445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87D41911E2117510020E445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41901E2117510020E445 /* FDCalenderView.app */,
+				F87D41A91E2117510020E445 /* FDCalenderViewTests.xctest */,
+				F87D41B41E2117510020E445 /* FDCalenderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87D41921E2117510020E445 /* FDCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41DA1E211D930020E445 /* Source */,
+				F87D41961E2117510020E445 /* AppDelegate.h */,
+				F87D41971E2117510020E445 /* AppDelegate.m */,
+				F87D41991E2117510020E445 /* ViewController.h */,
+				F87D419A1E2117510020E445 /* ViewController.m */,
+				F87D41D51E211BFA0020E445 /* FDTableViewCell.h */,
+				F87D41D61E211BFA0020E445 /* FDTableViewCell.m */,
+				F87D41D71E211BFA0020E445 /* FDTableViewCell.xib */,
+				F87D419C1E2117510020E445 /* Main.storyboard */,
+				F87D419F1E2117510020E445 /* Assets.xcassets */,
+				F87D41C91E211B190020E445 /* bt_next@2x.png */,
+				F87D41CA1E211B190020E445 /* bt_previous@2x.png */,
+				F87D41CB1E211B190020E445 /* shake.png */,
+				F87D41A11E2117510020E445 /* LaunchScreen.storyboard */,
+				F87D41A41E2117510020E445 /* Info.plist */,
+				F87D41931E2117510020E445 /* Supporting Files */,
+			);
+			path = FDCalenderView;
+			sourceTree = "<group>";
+		};
+		F87D41931E2117510020E445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41941E2117510020E445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F87D41AC1E2117510020E445 /* FDCalenderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41AD1E2117510020E445 /* FDCalenderViewTests.m */,
+				F87D41AF1E2117510020E445 /* Info.plist */,
+			);
+			path = FDCalenderViewTests;
+			sourceTree = "<group>";
+		};
+		F87D41B71E2117510020E445 /* FDCalenderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41B81E2117510020E445 /* FDCalenderViewUITests.m */,
+				F87D41BA1E2117510020E445 /* Info.plist */,
+			);
+			path = FDCalenderViewUITests;
+			sourceTree = "<group>";
+		};
+		F87D41DA1E211D930020E445 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F87D41CF1E211B390020E445 /* UIColor+ZXLazy.h */,
+				F87D41D01E211B390020E445 /* UIColor+ZXLazy.m */,
+				F87D41D11E211B390020E445 /* FDCalenderView.h */,
+				F87D41D21E211B390020E445 /* FDCalenderView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87D418F1E2117510020E445 /* FDCalenderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D41BD1E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderView" */;
+			buildPhases = (
+				F87D418C1E2117510020E445 /* Sources */,
+				F87D418D1E2117510020E445 /* Frameworks */,
+				F87D418E1E2117510020E445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDCalenderView;
+			productName = FDCalenderView;
+			productReference = F87D41901E2117510020E445 /* FDCalenderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87D41A81E2117510020E445 /* FDCalenderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D41C01E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderViewTests" */;
+			buildPhases = (
+				F87D41A51E2117510020E445 /* Sources */,
+				F87D41A61E2117510020E445 /* Frameworks */,
+				F87D41A71E2117510020E445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87D41AB1E2117510020E445 /* PBXTargetDependency */,
+			);
+			name = FDCalenderViewTests;
+			productName = FDCalenderViewTests;
+			productReference = F87D41A91E2117510020E445 /* FDCalenderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F87D41B31E2117510020E445 /* FDCalenderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D41C31E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderViewUITests" */;
+			buildPhases = (
+				F87D41B01E2117510020E445 /* Sources */,
+				F87D41B11E2117510020E445 /* Frameworks */,
+				F87D41B21E2117510020E445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87D41B61E2117510020E445 /* PBXTargetDependency */,
+			);
+			name = FDCalenderViewUITests;
+			productName = FDCalenderViewUITests;
+			productReference = F87D41B41E2117510020E445 /* FDCalenderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87D41881E2117510020E445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Feyddy;
+				TargetAttributes = {
+					F87D418F1E2117510020E445 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 57EU58357H;
+					};
+					F87D41A81E2117510020E445 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F87D418F1E2117510020E445;
+					};
+					F87D41B31E2117510020E445 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F87D418F1E2117510020E445;
+					};
+				};
+			};
+			buildConfigurationList = F87D418B1E2117510020E445 /* Build configuration list for PBXProject "FDCalenderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87D41871E2117510020E445;
+			productRefGroup = F87D41911E2117510020E445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87D418F1E2117510020E445 /* FDCalenderView */,
+				F87D41A81E2117510020E445 /* FDCalenderViewTests */,
+				F87D41B31E2117510020E445 /* FDCalenderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87D418E1E2117510020E445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D41CD1E211B190020E445 /* bt_previous@2x.png in Resources */,
+				F87D41A31E2117510020E445 /* LaunchScreen.storyboard in Resources */,
+				F87D41A01E2117510020E445 /* Assets.xcassets in Resources */,
+				F87D419E1E2117510020E445 /* Main.storyboard in Resources */,
+				F87D41CE1E211B190020E445 /* shake.png in Resources */,
+				F87D41CC1E211B190020E445 /* bt_next@2x.png in Resources */,
+				F87D41D91E211BFA0020E445 /* FDTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41A71E2117510020E445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41B21E2117510020E445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87D418C1E2117510020E445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D41D41E211B390020E445 /* FDCalenderView.m in Sources */,
+				F87D41D81E211BFA0020E445 /* FDTableViewCell.m in Sources */,
+				F87D419B1E2117510020E445 /* ViewController.m in Sources */,
+				F87D41D31E211B390020E445 /* UIColor+ZXLazy.m in Sources */,
+				F87D41981E2117510020E445 /* AppDelegate.m in Sources */,
+				F87D41951E2117510020E445 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41A51E2117510020E445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D41AE1E2117510020E445 /* FDCalenderViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D41B01E2117510020E445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D41B91E2117510020E445 /* FDCalenderViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87D41AB1E2117510020E445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87D418F1E2117510020E445 /* FDCalenderView */;
+			targetProxy = F87D41AA1E2117510020E445 /* PBXContainerItemProxy */;
+		};
+		F87D41B61E2117510020E445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87D418F1E2117510020E445 /* FDCalenderView */;
+			targetProxy = F87D41B51E2117510020E445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F87D419C1E2117510020E445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87D419D1E2117510020E445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F87D41A11E2117510020E445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87D41A21E2117510020E445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F87D41BB1E2117510020E445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F87D41BC1E2117510020E445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F87D41BE1E2117510020E445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FDCalenderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F87D41BF1E2117510020E445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FDCalenderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F87D41C11E2117510020E445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDCalenderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDCalenderView.app/FDCalenderView";
+			};
+			name = Debug;
+		};
+		F87D41C21E2117510020E445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDCalenderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDCalenderView.app/FDCalenderView";
+			};
+			name = Release;
+		};
+		F87D41C41E2117510020E445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDCalenderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDCalenderView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F87D41C51E2117510020E445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDCalenderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDCalenderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDCalenderView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87D418B1E2117510020E445 /* Build configuration list for PBXProject "FDCalenderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D41BB1E2117510020E445 /* Debug */,
+				F87D41BC1E2117510020E445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D41BD1E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D41BE1E2117510020E445 /* Debug */,
+				F87D41BF1E2117510020E445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D41C01E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D41C11E2117510020E445 /* Debug */,
+				F87D41C21E2117510020E445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D41C31E2117510020E445 /* Build configuration list for PBXNativeTarget "FDCalenderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D41C41E2117510020E445 /* Debug */,
+				F87D41C51E2117510020E445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87D41881E2117510020E445 /* Project object */;
+}
